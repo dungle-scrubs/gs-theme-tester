@@ -1,0 +1,37 @@
+{
+  "name": "gs-starter",
+  "version": "1.0.0",
+  "description": "Starter for new shopify sites meant to be used with gs-theme",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dungle-scrubs/gs-starter.git"
+  },
+  "author": "Kevin Frilot",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dungle-scrubs/gs-starter/issues"
+  },
+  "homepage": "https://github.com/dungle-scrubs/gs-starter#readme",
+  "dependencies": {
+    "@dungle-scrubs/gs-theme": "*",
+    "gatsby": "^3.1.1",
+    "gatsby-plugin-netlify": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-react": "^7.12.13"
+  }
+}
