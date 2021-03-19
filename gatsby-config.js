@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: '@dungle-scrubs/gs-theme',
       options: {
-        siteUrl: 'https://flamboyant-newton-32c101.netlify.app/', // siteUrl must exist for gatsby-plugin-sitemap
+        siteUrl: 'https://google.com/', // siteUrl must exist for gatsby-plugin-sitemap
         shopifySubdomain: process.env.GATSBY_SHOP_NAME,
         shopifyAccessToken: process.env.GATSBY_SHOPIFY_ACCESS_TOKEN,
         shopifyApiVersion: process.GATSBY_SHOPIFY_STOREFRONT_API_VERSION,

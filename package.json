@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/dungle-scrubs/gs-starter.git"
   },
-  "author": "Kevin Frilot",
+  "author": "Kevin",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/dungle-scrubs/gs-starter/issues"
@@ -28,10 +28,5 @@
     "gatsby-plugin-netlify": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/plugin-syntax-jsx": "^7.12.13",
-    "@babel/preset-react": "^7.12.13"
   }
 }
